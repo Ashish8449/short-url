@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+body {
+  /* overflow-x: hidden; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #fff;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 1.5rem;
+  font-weight: bold;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 5rem;
+}
+.container,
+.containerBttom {
+  /* padding: 0.5rem 0 0.5rem 5rem; */
+  max-width: 1440px;
+  margin: auto;
+}
+.containerBttom {
+  background: hsl(225, 33%, 95%);
+  margin-top: 6rem;
+}
+
+.navBrand {
+  width: 100px;
+  height: 5.2rem;
+  margin: 0 1.5rem;
+}
+.navBtn ul {
+  display: flex;
+  align-items: center;
+}
+.navBtn ul li {
+  margin: 1.5rem;
+  letter-spacing: 2px;
+
+  margin: 1.5rem;
+  font-weight: bold;
+}
+ul li {
+  color: hsl(257, 7%, 63%);
+}
+.mainBtn,
+.secondaryBtn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  line-height: 1.5625rem;
+  background-color: hsl(180, 66%, 49%);
+
+  color: #fff;
+  border: 0.1875rem solid hsl(180, 66%, 49%);
+
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0);
+  -webkit-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 10rem;
+}
+.mainBtn:hover {
+  cursor: pointer;
+}
+.illustration {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 6rem 5rem;
+  margin-bottom: 3rem;
+}
+.col6 {
+  width: calc(50% - 2rem);
+}
+.col6 p {
+  padding-right: 8rem;
+  word-spacing: 2px;
+  color: hsl(0, 0%, 75%);
+  margin-bottom: 4rem;
+}
+h2 {
+  font-size: 6rem;
+  line-height: 7.5rem;
+  /* word-spacing: 0.5rem; */
+  color: hsl(260, 8%, 14%);
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  position: relative;
+  padding: 4rem 3rem;
+  background: hsl(257, 27%, 26%) url(../images/bg-boost-desktop.svg);
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  top: -6rem;
+}
+form input {
+  width: 60%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+form button,
+.secondaryBtn {
+  padding: 1.3rem !important;
+  width: calc(30% - 1rem);
+  border-radius: 0.5rem !important;
+}
+
+.advance {
+  /* display: flex; */
+
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+}
+.advance h1,
+.card h1 {
+  font-size: 2.4rem;
+  width: 100%;
+  /* margin: 1rem auto; */
+  text-align: center;
+}
+.card h1 {
+  margin: 0 2rem;
+  text-align: left;
+}
+.advance p,
+.card p {
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 75%);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  /* padding: 1rem 8rem; */
+}
+.card p {
+  text-align: left;
+  width: calc(100% - 4rem);
+  padding: 1rem 2rem;
+}
+.col4 {
+  width: calc(33% - 2rem);
+  /* border: 2px solid red; */
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.cardSection {
+  display: flex;
+  justify-content: space-between;
+  background: url(../images/);
+  padding: 0 5rem;
+}
+.cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(257, 27%, 26%);
+  padding: 20px;
+  border-radius: 50%;
+  width: 50px;
+  object-fit: cover;
+  position: relative;
+  left: 2rem;
+  top: -4rem;
+}
+
+.card {
+  padding-bottom: 2rem;
+}
+.colNo2 {
+  transform: translateY(3.5rem);
+}
+.colNo3 {
+  transform: translateY(8rem);
+}
+.boostLink {
+  text-align: center;
+  margin-top: 12rem;
+  padding: 58px 0;
+  background: hsl(257, 27%, 26%) url(../images/bg-boost-desktop.svg);
+}
+.boostLink h2 {
+  font-size: 3rem;
+  color: #fff;
+  margin: 10px;
+}
+footer {
+  padding: 5rem 2rem;
+  background: hsl(260, 8%, 14%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer div ul :first-child {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+footer div ul {
+  margin: 0 30px;
+}
+footer div,
+.icons {
+  display: flex;
+}
+.icons li {
+  margin: 0 15px;
+}
+div ul li {
+  margin: 10px;
+}
+.lastLinks {
+  margin: 2rem auto;
+}
+.lastLinks li {
+  padding: 2rem 3rem;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  width: 60%;
+  margin: auto;
+  position: relative;
+
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.short {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.short button {
+  border-radius: 0.5rem !important;
+  margin-left: 2rem;
+}

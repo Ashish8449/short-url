@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 991px) {
+  .colNo2,
+  .colNo3 {
+    transform: translateY(0);
+  }
+  .colNo3 {
+    margin-top: 7rem;
+  }
+  .col4 {
+    width: calc(50% - 3rem);
+  }
+  .cardSection {
+    flex-wrap: wrap;
+  }
+  .boostLink {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 900px) {
+  /*carousel design*/
+  /* .col6 {
+    width: calc(100% - 2rem);
+    margin-top: 3rem;
+  }
+  .illustration {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+  } */
+}
+
+@media (max-width: 767px) {
+  /*carousel design*/
+}
+@media (max-width: 330px) {
+}
